@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Selection Items App',
+      title: 'Selection Item App',
       home: const SelectionScreen(),
     );
   }
