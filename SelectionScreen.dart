@@ -12,11 +12,11 @@ class SelectionScreen extends StatefulWidget {
 
 class _SelectionScreenState extends State<SelectionScreen> {
   List<Item> items = [
-    Item('Item 1', false),
-    Item('Item 2', false),
-    Item('Item 3', false),
-    Item('Item 4', false),
-    Item('Item 5', false),
+    Item('Blazer', false),
+    Item('Shirt', false),
+    Item('Pant', false),
+    Item('Watch', false),
+    Item('Shoes', false),
   ];
 
   void toggleItemSelection(int index) {
